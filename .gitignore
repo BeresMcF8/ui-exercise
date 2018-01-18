@@ -1,1 +1,17 @@
 .idea/
+/packages
+/ui-exercise/bin
+/ui-exercise/obj/Debug
+/ui-exercise.Tests/obj/Debug
+/.vs/ui-exercise/v15/.suo
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.suo
+bin/
+obj/
+/.vs
