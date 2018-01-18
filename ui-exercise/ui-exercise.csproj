@@ -151,10 +151,22 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Home\index.css">
+      <DependentUpon>index.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Home\index.min.css">
+      <DependentUpon>index.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\ArlaFoods.PNG" />
+    <Content Include="Images\AudiCity.PNG" />
+    <Content Include="Images\Copenhangen.PNG" />
+    <Content Include="Images\TV4Play.PNG" />
+    <Content Include="Images\Vlisco.PNG" />
+    <Content Include="Images\Xylem.PNG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -195,6 +207,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
