@@ -10,6 +10,7 @@
 }
 .content-container {
   font-family: 'Droid+Serif', serif;
+  margin-top: 30px;
 }
 .content-container article h2 {
   font-size: 18px;
